@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html>
+             
+      <head>
+           <title>Services</title>  
+      </head>
+            
+            <style>  body {
+                    
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    background-image: url(tulips.png );
+        
+        }
+            body {
+            font-family: Arial, sans-serif;
+            background-image: url("tulips.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgba(128, 0, 128, 0.7);
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            width: 220px;
+            transition: 0.4s ease;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(128, 0, 128, 0.6);
+        }
+
+        .caption {
+            padding: 10px;
+            font-weight: bold;
+            color: purple;
+            background: rgba(255,255,255,0.6);
+        }
+
+        a {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background: purple;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+
+         a:hover {
+            background: darkviolet;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+<h1>My Services Gallery 🌷💜</h1>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="tulips.png">
+        <div class="caption">Services 1 🌸</div>
+    </div>
+
+    <div class="card">
+        <img src="tulips.png">
+        <div class="caption">Services 2 🌷</div>
+    </div>
+
+    <div class="card">
+        <img src="tulips.png">
+        <div class="caption">Services 3 💜</div>
+    </div>
+
+    <div class="card">
+        <img src="tulips.png">
+        <div class="caption">Services 4 ✨</div>
+    </div>
+
+    <div class="card">
+        <img src="tulips.png">
+        <div class="caption">Services 5 🌺</div>
+    </div>
+
+</div>
+
+<a href="my first website.html">← Back to Home</a>
+

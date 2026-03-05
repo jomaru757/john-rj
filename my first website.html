@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-image: url("tulips.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+
+        header {
+            color: black;
+            background-color: 0;
+            padding: 20px;
+        }
+
+         
+        section {
+     padding: 20;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e0ea3;
+    color:blueviolet
+        }
+            img {
+                width: 200px;
+                border-radius: 10px;
+       
+            }
+                
+
+        footer {
+            background-color: 0;
+            color: black;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Student Website</h1>
+</header>
+
+    <nav>
+        
+            <a href="my first website.html"><h4>Home<x/a> <br>
+            <a href="About.html">About</a><br>
+            <a href="Services.html">Services</a><br>
+            
+            <a href="Gallery.html">Gallery</a><br>
+            <a href="Contact.html">Contact</a><br>
+          
+    </nav>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! My name is Arbie. I am learning HTML and CSS.</p>
+
+    <h2>My Photo</h2>
+    <img src="hehe.png.jpg" alt="My Photo">
+
+    <h2>My Hobbies</h2>
+    <ul style="list-style-type: none;">
+     <li>🎵 Listening to Music</li>
+     <li>🎬 Watching Movies</li>
+    </ul>
+
+    <h2>Click the Button</h2>
+    <button onclick="showMessage()">Click Me</button>
+
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>© 2026 My Simple Website</p>
+</footer>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").innerHTML = "<h4>Thank you";
+    }
+</script>
+
+</body>
+</html>
